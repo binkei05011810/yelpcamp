@@ -17,3 +17,13 @@ body {
 .nav-link:hover {
     border-bottom-color: rgba(255, 255, 255, 0.5);
 }
+
+#welcome {
+    font-family: 'Great Vibes', cursive;
+    font-size: 2.5em; 
+    color: #BCB8B1;
+}
+
+.intro {
+    font-size: 1rem;
+}
