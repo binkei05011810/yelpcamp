@@ -47,3 +47,12 @@ main {
     height: 60px;
     background-color: black;
 }
+
+.img-thumbnail {
+    height: 75%;
+}
+
+.img-fluid {
+    height: 75%;
+    width: 100%
+}
