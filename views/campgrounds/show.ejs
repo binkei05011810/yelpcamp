@@ -9,7 +9,7 @@
                 <div class="carousel-inner">
                     <% campground.images.forEach( (image, i) => { %> 
                     <div class="carousel-item <%= i === 0 ? 'active' : '' %>">
-                        <img src="<%= image.url %>" class="d-block w-100" alt="">
+                        <img src="<%= image.url %>" class="img-thumbnail d-block w-100" alt="">
                     </div>
                     <% }) %> 
                 </div>
@@ -73,7 +73,7 @@
                     <textarea class="form-control" name="review[body]" id="body" cols="30" rows="5" required></textarea>
                     <div class="valid-feedback">Looks Good!!!</div>
                 </div>
-                <button class="btn btn-sm btn-primary">Submit</button>
+                <button class="btn btn-md btn-dark">Submit</button>
             </form>
             <% } %> 
     
